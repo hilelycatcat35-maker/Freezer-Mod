@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "freezerboss",
+  "version": "${version}",
+  "name": "The Freezer",
+  "description": "Adds an ice boss called The Freezer.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.freezer.FreezerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
