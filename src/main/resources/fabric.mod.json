@@ -6,7 +6,8 @@
   "description": "Adds an ice boss called The Freezer.",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.freezer.FreezerMod"]
+    "main": ["com.freezer.FreezerMod"],
+    "client": ["com.freezer.FreezerClient"]
   },
   "depends": {
     "fabricloader": ">=0.18.0",
